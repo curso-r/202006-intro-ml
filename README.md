@@ -1,12 +1,23 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-## Baixar ou atualizar material
+## Configuração inicial
 
     install.packages("remotes")
+    
+    # instalar pacotes com bases de dados
+    remotes::install_github("curso-r/basesCursoR")
+    
+    # instalar pacote da Curso-R
     remotes::install_github("curso-r/CursoR")
     
+    # Baixar ou atualizar material do curso
     CursoR::atualizar_material()
+    
+    # instalar pacotes que vamos usar durante o curso
+    CursoR::instalar_dependencias()
+
+## Lista de arquivos e códigos
 
 | Slides                                                                                                                      |
 | :-------------------------------------------------------------------------------------------------------------------------- |
@@ -46,3 +57,29 @@
 | <a href='https://curso-r.github.io/intro-ml-mestre/exercicios/exercicios/tarefa-1.R'>exercicios/tarefa-1.R</a>                                   |
 | <a href='https://curso-r.github.io/intro-ml-mestre/exercicios/exercicios/tarefa-da-aula-4.R'>exercicios/tarefa-da-aula-4.R</a>                   |
 | <a href='https://curso-r.github.io/intro-ml-mestre/exercicios/exercicios/tarefa-da-aula4-resolucao.R'>exercicios/tarefa-da-aula4-resolucao.R</a> |
+
+## Referências externas
+
+#### Programação em R
+
+  - [Livro da Curso-R (Curso-R)](https://livro.curso-r.com/)
+  - [Tidyverse (Wickham H)](https://www.tidyverse.org/)
+  - [R for Data Science (Wickham H)](https://r4ds.had.co.nz/)
+  - [Advanced R (Wickham H)](https://adv-r.hadley.nz/)
+
+#### Machine Learning
+
+  - [Introduction to Statistical Learning (Hastie, et
+    al)](http://faculty.marshall.usc.edu/gareth-james/ISL/ISLR%20Seventh%20Printing.pdf)
+  - [Elements of Statistical Learning (Hastie, et
+    al)](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
+  - [Computer Age Statistical Inference (Hastie,
+    Efron)](https://web.stanford.edu/~hastie/CASI_files/PDF/casi.pdf)
+  - [Tidymodels (Khun, et al)](https://www.tidymodels.org/)
+  - [Feature Engineering and Selection: A Practical Approach for
+    Predictive Models (Khun, Kjell)](http://www.feat.engineering/)
+  - [Kaggle](https://www.kaggle.com/)
+
+#### Miscelânea
+
+  - [Tidytext (Silges, et al)](https://www.tidytextmining.com/)
