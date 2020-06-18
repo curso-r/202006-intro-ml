@@ -35,6 +35,9 @@
 | <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/exemplos/16-diamonds.R'>exemplos/16-diamonds.R</a>                         |
 | <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/exemplos/99-misc-xgboost-gif.R'>exemplos/99-misc-xgboost-gif.R</a>         |
 
+| Scripts feitos em aula |
+| :--------------------- |
+
 | Exercícios                                                                                                                                       |
 | :----------------------------------------------------------------------------------------------------------------------------------------------- |
 | <a href='https://curso-r.github.io/intro-ml-mestre/exercicios/exercicios/tarefa-01.R'>exercicios/tarefa-01.R</a>                                 |

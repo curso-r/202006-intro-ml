@@ -47,6 +47,18 @@ knitr::kable(
 )
 ```
 
+```{r, echo = FALSE}
+knitr::kable(
+  tibble::tibble(
+    scripts_feito_em_aula =  CursoR:::list_github_files("intro-ml-mestre", "scripts_feito_em_aula/", "\\.R"),
+    link = paste0("https://curso-r.github.io/intro-ml-mestre/scripts_feito_em_aula/", scripts_feito_em_aula)
+  ) %>%
+    mutate(
+      `Scripts feitos em aula` = glue::glue("<a href='{link}'>{scripts_feito_em_aula}</a>")
+    ) %>% 
+    select(`Scripts feitos em aula`)
+)
+```
 
 ```{r, echo = FALSE}
 knitr::kable(
