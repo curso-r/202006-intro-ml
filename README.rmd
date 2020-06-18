@@ -5,6 +5,7 @@ output: github_document
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 ```{r, include = FALSE}
+library(tidyverse)
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>"
@@ -20,36 +21,43 @@ remotes::install_github("curso-r/CursoR")
 CursoR::atualizar_material()
 ```
 
-## Slides
-
 ```{r, echo = FALSE}
-knitr::kable(
+knitr::kable(escape = FALSE,
   tibble::tibble(
-    slide = CursoR:::list_github_files("intro-ml-mestre", "slides/", "html"),
+    slide = CursoR:::list_github_files("intro-ml-mestre", "slides/", "\\.html"),
     link = paste0("https://curso-r.github.io/intro-ml-mestre/", slide)
-  )
+  ) %>%
+    mutate(
+      Slides = glue::glue("<a href='{link}'>{slide}</a>")
+    ) %>% 
+    select(Slides)
 )
 ```
-
-## Scripts
 
 ```{r, echo = FALSE}
 knitr::kable(
   tibble::tibble(
-    script =  CursoR:::list_github_files("intro-ml-mestre", "scripts/", ".R"),
-    link = paste0("https://curso-r.github.io/intro-ml-mestre/scripts/", script)
-  )
+    exemplo =  CursoR:::list_github_files("intro-ml-mestre", "exemplos/", "\\.R"),
+    link = paste0("https://curso-r.github.io/intro-ml-mestre/exemplos/", exemplo)
+  ) %>%
+    mutate(
+      Exemplos = glue::glue("<a href='{link}'>{exemplo}</a>")
+    ) %>% 
+    select(Exemplos)
 )
 ```
 
-## Exercícios
 
 ```{r, echo = FALSE}
 knitr::kable(
   tibble::tibble(
-    script = CursoR:::list_github_files("intro-ml-mestre", "exercicios/", ".R"),
-    link = paste0("https://curso-r.github.io/intro-ml-mestre/exercicios/", script)
-  )
+    exercicio = CursoR:::list_github_files("intro-ml-mestre", "exercicios/", "\\.R"),
+    link = paste0("https://curso-r.github.io/intro-ml-mestre/exercicios/", exercicio)
+  ) %>%
+    mutate(
+      Exercícios = glue::glue("<a href='{link}'>{exercicio}</a>")
+    ) %>% 
+    select(Exercícios)
 )
 ```
 
