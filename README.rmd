@@ -128,8 +128,8 @@ knitr::kable(
 - [Introduction to Statistical Learning (Hastie, et al)](http://faculty.marshall.usc.edu/gareth-james/ISL/ISLR%20Seventh%20Printing.pdf)
 - [Elements of Statistical Learning (Hastie, et al)](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
 - [Computer Age Statistical Inference (Hastie, Efron)](https://web.stanford.edu/~hastie/CASI_files/PDF/casi.pdf)
-- [Tidymodels (Khun, et al)](https://www.tidymodels.org/)
-- [Feature Engineering and Selection: A Practical Approach for Predictive Models (Khun, Kjell)](http://www.feat.engineering/)
+- [Tidymodels (Kuhn, et al)](https://www.tidymodels.org/)
+- [Feature Engineering and Selection: A Practical Approach for Predictive Models (Kuhn, Kjell)](http://www.feat.engineering/)
 - [Kaggle](https://www.kaggle.com/)
 
 #### Miscelânea
