@@ -55,10 +55,14 @@ CursoR::atualizar_material()
 | <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/05-regressao-linear.R'>exemplos/05-regressao-linear.R</a>                                   |
 | <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/06-regressao-logistica.R'>exemplos/06-regressao-logistica.R</a>                             |
 | <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/07-regressao-linear-com-lasso-na-mao.R'>exemplos/07-regressao-linear-com-lasso-na-mao.R</a> |
+| <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/08-normalizacao-lasso-recipes.R'>exemplos/08-normalizacao-lasso-recipes.R</a>               |
 
-| Scripts feitos em aula                                                                                                             |
-| :--------------------------------------------------------------------------------------------------------------------------------- |
-| <a href='https://curso-r.github.io/202006-intro-ml/scripts_feitos_em_aula/99-ignorar.R'>scripts\_feitos\_em\_aula/99-ignorar.R</a> |
+| Scripts feitos em aula                                                                                                                               |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <a href='https://curso-r.github.io/202006-intro-ml/scripts_feitos_em_aula/01-tidymodels.R'>scripts\_feitos\_em\_aula/01-tidymodels.R</a>             |
+| <a href='https://curso-r.github.io/202006-intro-ml/scripts_feitos_em_aula/02-overfitting.R'>scripts\_feitos\_em\_aula/02-overfitting.R</a>           |
+| <a href='https://curso-r.github.io/202006-intro-ml/scripts_feitos_em_aula/03-cross-validation.R'>scripts\_feitos\_em\_aula/03-cross-validation.R</a> |
+| <a href='https://curso-r.github.io/202006-intro-ml/scripts_feitos_em_aula/99-ignorar.R'>scripts\_feitos\_em\_aula/99-ignorar.R</a>                   |
 
 | Exercícios                                                                                                                |
 | :------------------------------------------------------------------------------------------------------------------------ |
@@ -91,9 +95,9 @@ CursoR::atualizar_material()
     al)](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
   - [Computer Age Statistical Inference (Hastie,
     Efron)](https://web.stanford.edu/~hastie/CASI_files/PDF/casi.pdf)
-  - [Tidymodels (Khun, et al)](https://www.tidymodels.org/)
+  - [Tidymodels (Kuhn, et al)](https://www.tidymodels.org/)
   - [Feature Engineering and Selection: A Practical Approach for
-    Predictive Models (Khun, Kjell)](http://www.feat.engineering/)
+    Predictive Models (Kuhn, Kjell)](http://www.feat.engineering/)
   - [Kaggle](https://www.kaggle.com/)
 
 #### Miscelânea
