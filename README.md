@@ -69,14 +69,14 @@ CursoR::atualizar_material()
 | <a href='https://curso-r.github.io/intro-ml-mestre/exercicios/01-tidymodels.R'>exercicios/01-tidymodels.R</a>             |
 | <a href='https://curso-r.github.io/intro-ml-mestre/exercicios/02-overfitting.R'>exercicios/02-overfitting.R</a>           |
 | <a href='https://curso-r.github.io/intro-ml-mestre/exercicios/03-cross-validation.R'>exercicios/03-cross-validation.R</a> |
-| <a href='https://curso-r.github.io/intro-ml-mestre/exercicios/05-regressao-linear.R'>exercicios/05-regressao-linear.R</a> |
+| <a href='https://curso-r.github.io/intro-ml-mestre/exercicios/04-regressao-linear.R'>exercicios/04-regressao-linear.R</a> |
 
 | Gabaritos                                                                                                               |
 | :---------------------------------------------------------------------------------------------------------------------- |
 | <a href='https://curso-r.github.io/intro-ml-mestre/gabaritos/01-tidymodels.R'>gabaritos/01-tidymodels.R</a>             |
 | <a href='https://curso-r.github.io/intro-ml-mestre/gabaritos/02-overfitting.R'>gabaritos/02-overfitting.R</a>           |
 | <a href='https://curso-r.github.io/intro-ml-mestre/gabaritos/03-cross-validation.R'>gabaritos/03-cross-validation.R</a> |
-| <a href='https://curso-r.github.io/intro-ml-mestre/gabaritos/05-regressao-linear.R'>gabaritos/05-regressao-linear.R</a> |
+| <a href='https://curso-r.github.io/intro-ml-mestre/gabaritos/04-regressao-linear.R'>gabaritos/04-regressao-linear.R</a> |
 
 ## Referências externas
 
