@@ -14,11 +14,17 @@ dados <- x %>%
     y = 1 + 100*V1 + 0.01*V2 + 1*V3 + rnorm(rows)
   )
 
+dados$V1 <- (dados$V1 - mean(dados$V1))/sd(dados$V1)
+
 # receita (dataprep) ------------------------------------------------------
 receita <- recipe(y ~ ., data = dados) %>%
   step_center(all_predictors()) %>%
   step_scale(all_predictors()) %>%
   step_zv(all_predictors())
+
+dados$V1 <- (dados$V1 - mean(dados$V1))/sd(dados$V1)
+
+dados_novos %>% receita %>% predict
 
 # modelos -----------------------------------------------------------------
 mod1 <- linear_reg() %>% set_engine("lm")
@@ -35,7 +41,6 @@ fit2 <- fit(wf2, data = dados)
 # variaveis importantes ---------------------------------------------------
 vip(fit1$fit$fit)
 vip(fit2$fit$fit)
-
 
 
 
