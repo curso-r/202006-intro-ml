@@ -56,6 +56,12 @@ CursoR::atualizar_material()
 | <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/06-regressao-logistica.R'>exemplos/06-regressao-logistica.R</a>                             |
 | <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/07-regressao-linear-com-lasso-na-mao.R'>exemplos/07-regressao-linear-com-lasso-na-mao.R</a> |
 | <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/08-normalizacao-lasso-recipes.R'>exemplos/08-normalizacao-lasso-recipes.R</a>               |
+| <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/09-exemplo-arvore-pt1.R'>exemplos/09-exemplo-arvore-pt1.R</a>                               |
+| <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/10-exemplo-arvore-pt2.R'>exemplos/10-exemplo-arvore-pt2.R</a>                               |
+| <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/11-report-credit-data.Rmd'>exemplos/11-report-credit-data.Rmd</a>                           |
+| <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/12-xgboost.Rmd'>exemplos/12-xgboost.Rmd</a>                                                 |
+| <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/13-xgboost-sql.R'>exemplos/13-xgboost-sql.R</a>                                             |
+| <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/15-steps.R'>exemplos/15-steps.R</a>                                                         |
 
 | Scripts feitos em aula                                                                                                                               |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -65,19 +71,22 @@ CursoR::atualizar_material()
 | <a href='https://curso-r.github.io/202006-intro-ml/scripts_feitos_em_aula/05-regressao-linear.R'>scripts\_feitos\_em\_aula/05-regressao-linear.R</a> |
 | <a href='https://curso-r.github.io/202006-intro-ml/scripts_feitos_em_aula/99-ignorar.R'>scripts\_feitos\_em\_aula/99-ignorar.R</a>                   |
 
-| Exercícios                                                                                                                |
-| :------------------------------------------------------------------------------------------------------------------------ |
-| <a href='https://curso-r.github.io/intro-ml-mestre/exercicios/01-tidymodels.R'>exercicios/01-tidymodels.R</a>             |
-| <a href='https://curso-r.github.io/intro-ml-mestre/exercicios/02-overfitting.R'>exercicios/02-overfitting.R</a>           |
-| <a href='https://curso-r.github.io/intro-ml-mestre/exercicios/03-cross-validation.R'>exercicios/03-cross-validation.R</a> |
-| <a href='https://curso-r.github.io/intro-ml-mestre/exercicios/04-regressao-linear.R'>exercicios/04-regressao-linear.R</a> |
+| Exercícios                                                                                                                      |
+| :------------------------------------------------------------------------------------------------------------------------------ |
+| <a href='https://curso-r.github.io/intro-ml-mestre/exercicios/01-tidymodels.R'>exercicios/01-tidymodels.R</a>                   |
+| <a href='https://curso-r.github.io/intro-ml-mestre/exercicios/02-overfitting.R'>exercicios/02-overfitting.R</a>                 |
+| <a href='https://curso-r.github.io/intro-ml-mestre/exercicios/03-cross-validation.R'>exercicios/03-cross-validation.R</a>       |
+| <a href='https://curso-r.github.io/intro-ml-mestre/exercicios/04-regressao-linear.R'>exercicios/04-regressao-linear.R</a>       |
+| <a href='https://curso-r.github.io/intro-ml-mestre/exercicios/05-regressao-logistica.R'>exercicios/05-regressao-logistica.R</a> |
+| <a href='https://curso-r.github.io/intro-ml-mestre/exercicios/06-random-forest.R'>exercicios/06-random-forest.R</a>             |
 
-| Gabaritos                                                                                                               |
-| :---------------------------------------------------------------------------------------------------------------------- |
-| <a href='https://curso-r.github.io/intro-ml-mestre/gabaritos/01-tidymodels.R'>gabaritos/01-tidymodels.R</a>             |
-| <a href='https://curso-r.github.io/intro-ml-mestre/gabaritos/02-overfitting.R'>gabaritos/02-overfitting.R</a>           |
-| <a href='https://curso-r.github.io/intro-ml-mestre/gabaritos/03-cross-validation.R'>gabaritos/03-cross-validation.R</a> |
-| <a href='https://curso-r.github.io/intro-ml-mestre/gabaritos/04-regressao-linear.R'>gabaritos/04-regressao-linear.R</a> |
+| Gabaritos                                                                                                                     |
+| :---------------------------------------------------------------------------------------------------------------------------- |
+| <a href='https://curso-r.github.io/intro-ml-mestre/gabaritos/01-tidymodels.R'>gabaritos/01-tidymodels.R</a>                   |
+| <a href='https://curso-r.github.io/intro-ml-mestre/gabaritos/02-overfitting.R'>gabaritos/02-overfitting.R</a>                 |
+| <a href='https://curso-r.github.io/intro-ml-mestre/gabaritos/03-cross-validation.R'>gabaritos/03-cross-validation.R</a>       |
+| <a href='https://curso-r.github.io/intro-ml-mestre/gabaritos/04-regressao-linear.R'>gabaritos/04-regressao-linear.R</a>       |
+| <a href='https://curso-r.github.io/intro-ml-mestre/gabaritos/05-regressao-logistica.R'>gabaritos/05-regressao-logistica.R</a> |
 
 ## Referências externas
 

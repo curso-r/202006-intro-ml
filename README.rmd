@@ -65,7 +65,7 @@ knitr::kable(escape = FALSE,
 ```{r, echo = FALSE}
 knitr::kable(
   tibble::tibble(
-    exemplo =  CursoR:::list_github_files("intro-ml-mestre", "exemplos/", "\\.R"),
+    exemplo =  CursoR:::list_github_files("intro-ml-mestre", "exemplos/", "\\.(R$)|(Rmd$)"),
     link = paste0("https://curso-r.github.io/intro-ml-mestre/", exemplo)
   ) %>%
     mutate(
