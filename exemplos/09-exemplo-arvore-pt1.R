@@ -26,3 +26,5 @@ credit_tree_fit <- fit(
 rpart.plot(credit_tree_fit$fit, roundint=FALSE)
 cp <- as.data.frame(credit_tree_fit$fit$cptable)
 
+predict(credit_tree_fit, dados, type = "prob")
+

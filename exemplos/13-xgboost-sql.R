@@ -26,20 +26,20 @@ data <- tribble(
 # não queremos "regression" mais, queremos "classification"
 
 xgb_model <- boost_tree(
-  mode = "classification", 
-  mtry = 1, 
+  mode = "classification",
+  mtry = 1,
   sample_size = 1,
-  min_n = 1, 
-  
+  min_n = 1,
+
   # -----------------------------------
   loss_reduction = 0,
   learn_rate = 0.3,
   tree_depth = 2,
   trees = 2
-  
+
   #-------------------------------------
 ) %>%
-  set_engine("xgboost", lambda = 0, params = list(min_child_weight = 0))
+  set_engine("xgboost", lambda = x'', params = list(min_child_weight = 0), monotonic =)
 
 # fit
 xgb_fit <- fit(xgb_model, curou ~ dose, data = data)
@@ -61,8 +61,11 @@ predicoes
 show_query(predicoes)
 
 
-# 1 - 1/(1 + exp(0 + case_when(dose >= 14 ~ 0.600000024, (dose < 5 | is.na(dose)) & (dose < 14 | is.na(dose)) ~ 0.600000024, 
-#                              dose >= 5 & (dose < 14 | is.na(dose)) ~ -0.600000024) + 
-#                    case_when(dose >= 14 ~ 0.464643508, (dose < 5 | is.na(dose)) & (dose < 14 | is.na(dose)) ~ 0.464643508, 
+# 1 - 1/(1 + exp(0 + case_when(dose >= 14 ~ 0.600000024, (dose < 5 | is.na(dose)) & (dose < 14 | is.na(dose)) ~ 0.600000024,
+#                              dose >= 5 & (dose < 14 | is.na(dose)) ~ -0.600000024) +
+#                    case_when(dose >= 14 ~ 0.464643508, (dose < 5 | is.na(dose)) & (dose < 14 | is.na(dose)) ~ 0.464643508,
 #                              dose >= 5 & (dose < 14 | is.na(dose)) ~ -0.464643508)))
+
+# dose = 13
+1/(1 + exp(0 - 0.600000024 -0.464643508))
 

@@ -64,8 +64,8 @@ predict(mod, diamonds_com_problemas_a_mais %>% mutate(color = "K"))
 rec3 <- rec %>% step_other(clarity) %>% step_dummy(all_nominal())
 juice(prep(rec3)) %>% glimpse()
 
-diamonds_com_problemas_a_mais %>% 
-  count(clarity) %>% 
+diamonds_com_problemas_a_mais %>%
+  count(clarity) %>%
   adorn_percentages(denominator = "col") %>%
   adorn_pct_formatting()
 
@@ -180,7 +180,7 @@ rec3 <- rec %>% step_mutate(
     x - y > 10 ~ "Nao OK",
     TRUE ~ "Vamos ver"
   ),
-  
+
   col_mutate2 = x + y - z
 )
 juice(prep(rec3)) %>% glimpse()
@@ -219,3 +219,7 @@ juice(prep(rec3)) %>% glimpse()
 # steps de datas ----------------------------------------------------------
 # step_holiday()
 # step_date()
+
+
+# lime
+# shap

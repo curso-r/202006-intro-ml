@@ -60,8 +60,11 @@ CursoR::atualizar_material()
 | <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/10-exemplo-arvore-pt2.R'>exemplos/10-exemplo-arvore-pt2.R</a>                               |
 | <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/11-report-credit-data.Rmd'>exemplos/11-report-credit-data.Rmd</a>                           |
 | <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/12-xgboost.Rmd'>exemplos/12-xgboost.Rmd</a>                                                 |
+| <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/13-adult.R'>exemplos/13-adult.R</a>                                                         |
 | <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/13-xgboost-sql.R'>exemplos/13-xgboost-sql.R</a>                                             |
+| <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/14-adult-exemplo-submissao.R'>exemplos/14-adult-exemplo-submissao.R</a>                     |
 | <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/15-steps.R'>exemplos/15-steps.R</a>                                                         |
+| <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/15-steps.Rmd'>exemplos/15-steps.Rmd</a>                                                     |
 
 | Scripts feitos em aula                                                                                                                               |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------- |
