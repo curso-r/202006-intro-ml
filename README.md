@@ -39,34 +39,34 @@ CursoR::atualizar_material()
 
 ## Lista de arquivos e códigos
 
-| Slides                                                                                                                      |
-| :-------------------------------------------------------------------------------------------------------------------------- |
-| <a href='https://curso-r.github.io/intro-ml-mestre/slides/00-intro-curso.html'>slides/00-intro-curso.html</a>               |
-| <a href='https://curso-r.github.io/intro-ml-mestre/slides/01-intro-ml.html'>slides/01-intro-ml.html</a>                     |
-| <a href='https://curso-r.github.io/intro-ml-mestre/slides/03-modelos-de-arvores.html'>slides/03-modelos-de-arvores.html</a> |
-| <a href='https://curso-r.github.io/intro-ml-mestre/slides/04-dataprep.html'>slides/04-dataprep.html</a>                     |
+| Slides                                                                                                                    |
+| :------------------------------------------------------------------------------------------------------------------------ |
+| <a href='https://curso-r.github.io/main-intro-ml/slides/00-intro-curso.html'>slides/00-intro-curso.html</a>               |
+| <a href='https://curso-r.github.io/main-intro-ml/slides/01-intro-ml.html'>slides/01-intro-ml.html</a>                     |
+| <a href='https://curso-r.github.io/main-intro-ml/slides/03-modelos-de-arvores.html'>slides/03-modelos-de-arvores.html</a> |
+| <a href='https://curso-r.github.io/main-intro-ml/slides/04-dataprep.html'>slides/04-dataprep.html</a>                     |
 
-| Exemplos                                                                                                                                                |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/01-tidymodels.R'>exemplos/01-tidymodels.R</a>                                               |
-| <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/02-overfitting.R'>exemplos/02-overfitting.R</a>                                             |
-| <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/03-cross-validation.R'>exemplos/03-cross-validation.R</a>                                   |
-| <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/04-hiperparametros.R'>exemplos/04-hiperparametros.R</a>                                     |
-| <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/05-regressao-linear.R'>exemplos/05-regressao-linear.R</a>                                   |
-| <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/06-regressao-logistica.R'>exemplos/06-regressao-logistica.R</a>                             |
-| <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/07-regressao-linear-com-lasso-na-mao.R'>exemplos/07-regressao-linear-com-lasso-na-mao.R</a> |
-| <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/08-normalizacao-lasso-recipes.R'>exemplos/08-normalizacao-lasso-recipes.R</a>               |
-| <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/09-exemplo-arvore-pt1.R'>exemplos/09-exemplo-arvore-pt1.R</a>                               |
-| <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/10-exemplo-arvore-pt2.R'>exemplos/10-exemplo-arvore-pt2.R</a>                               |
-| <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/11-report-credit-data.Rmd'>exemplos/11-report-credit-data.Rmd</a>                           |
-| <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/12-xgboost.Rmd'>exemplos/12-xgboost.Rmd</a>                                                 |
-| <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/13-adult.R'>exemplos/13-adult.R</a>                                                         |
-| <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/13-xgboost-sql.R'>exemplos/13-xgboost-sql.R</a>                                             |
-| <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/14-adult-exemplo-submissao.R'>exemplos/14-adult-exemplo-submissao.R</a>                     |
-| <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/15-steps.R'>exemplos/15-steps.R</a>                                                         |
-| <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/15-steps.Rmd'>exemplos/15-steps.Rmd</a>                                                     |
-| <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/99-trabalho-erico-rocha.R'>exemplos/99-trabalho-erico-rocha.R</a>                           |
-| <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/99-trabalho-ricardo-mattos.Rmd'>exemplos/99-trabalho-ricardo-mattos.Rmd</a>                 |
+| Exemplos                                                                                                                                              |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <a href='https://curso-r.github.io/main-intro-ml/exemplos/01-tidymodels.R'>exemplos/01-tidymodels.R</a>                                               |
+| <a href='https://curso-r.github.io/main-intro-ml/exemplos/02-overfitting.R'>exemplos/02-overfitting.R</a>                                             |
+| <a href='https://curso-r.github.io/main-intro-ml/exemplos/03-cross-validation.R'>exemplos/03-cross-validation.R</a>                                   |
+| <a href='https://curso-r.github.io/main-intro-ml/exemplos/04-hiperparametros.R'>exemplos/04-hiperparametros.R</a>                                     |
+| <a href='https://curso-r.github.io/main-intro-ml/exemplos/05-regressao-linear.R'>exemplos/05-regressao-linear.R</a>                                   |
+| <a href='https://curso-r.github.io/main-intro-ml/exemplos/06-regressao-logistica.R'>exemplos/06-regressao-logistica.R</a>                             |
+| <a href='https://curso-r.github.io/main-intro-ml/exemplos/07-regressao-linear-com-lasso-na-mao.R'>exemplos/07-regressao-linear-com-lasso-na-mao.R</a> |
+| <a href='https://curso-r.github.io/main-intro-ml/exemplos/08-normalizacao-lasso-recipes.R'>exemplos/08-normalizacao-lasso-recipes.R</a>               |
+| <a href='https://curso-r.github.io/main-intro-ml/exemplos/09-exemplo-arvore-pt1.R'>exemplos/09-exemplo-arvore-pt1.R</a>                               |
+| <a href='https://curso-r.github.io/main-intro-ml/exemplos/10-exemplo-arvore-pt2.R'>exemplos/10-exemplo-arvore-pt2.R</a>                               |
+| <a href='https://curso-r.github.io/main-intro-ml/exemplos/11-report-credit-data.Rmd'>exemplos/11-report-credit-data.Rmd</a>                           |
+| <a href='https://curso-r.github.io/main-intro-ml/exemplos/12-xgboost.Rmd'>exemplos/12-xgboost.Rmd</a>                                                 |
+| <a href='https://curso-r.github.io/main-intro-ml/exemplos/13-adult.R'>exemplos/13-adult.R</a>                                                         |
+| <a href='https://curso-r.github.io/main-intro-ml/exemplos/13-xgboost-sql.R'>exemplos/13-xgboost-sql.R</a>                                             |
+| <a href='https://curso-r.github.io/main-intro-ml/exemplos/14-adult-exemplo-submissao.R'>exemplos/14-adult-exemplo-submissao.R</a>                     |
+| <a href='https://curso-r.github.io/main-intro-ml/exemplos/15-steps.R'>exemplos/15-steps.R</a>                                                         |
+| <a href='https://curso-r.github.io/main-intro-ml/exemplos/15-steps.Rmd'>exemplos/15-steps.Rmd</a>                                                     |
+| <a href='https://curso-r.github.io/main-intro-ml/exemplos/99-trabalho-erico-rocha.R'>exemplos/99-trabalho-erico-rocha.R</a>                           |
+| <a href='https://curso-r.github.io/main-intro-ml/exemplos/99-trabalho-ricardo-mattos.Rmd'>exemplos/99-trabalho-ricardo-mattos.Rmd</a>                 |
 
 | Scripts feitos em aula                                                                                                                               |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -76,22 +76,22 @@ CursoR::atualizar_material()
 | <a href='https://curso-r.github.io/202006-intro-ml/scripts_feitos_em_aula/05-regressao-linear.R'>scripts\_feitos\_em\_aula/05-regressao-linear.R</a> |
 | <a href='https://curso-r.github.io/202006-intro-ml/scripts_feitos_em_aula/99-ignorar.R'>scripts\_feitos\_em\_aula/99-ignorar.R</a>                   |
 
-| Exercícios                                                                                                                      |
-| :------------------------------------------------------------------------------------------------------------------------------ |
-| <a href='https://curso-r.github.io/intro-ml-mestre/exercicios/01-tidymodels.R'>exercicios/01-tidymodels.R</a>                   |
-| <a href='https://curso-r.github.io/intro-ml-mestre/exercicios/02-overfitting.R'>exercicios/02-overfitting.R</a>                 |
-| <a href='https://curso-r.github.io/intro-ml-mestre/exercicios/03-cross-validation.R'>exercicios/03-cross-validation.R</a>       |
-| <a href='https://curso-r.github.io/intro-ml-mestre/exercicios/04-regressao-linear.R'>exercicios/04-regressao-linear.R</a>       |
-| <a href='https://curso-r.github.io/intro-ml-mestre/exercicios/05-regressao-logistica.R'>exercicios/05-regressao-logistica.R</a> |
-| <a href='https://curso-r.github.io/intro-ml-mestre/exercicios/06-random-forest.R'>exercicios/06-random-forest.R</a>             |
-
-| Gabaritos                                                                                                                     |
+| Exercícios                                                                                                                    |
 | :---------------------------------------------------------------------------------------------------------------------------- |
-| <a href='https://curso-r.github.io/intro-ml-mestre/gabaritos/01-tidymodels.R'>gabaritos/01-tidymodels.R</a>                   |
-| <a href='https://curso-r.github.io/intro-ml-mestre/gabaritos/02-overfitting.R'>gabaritos/02-overfitting.R</a>                 |
-| <a href='https://curso-r.github.io/intro-ml-mestre/gabaritos/03-cross-validation.R'>gabaritos/03-cross-validation.R</a>       |
-| <a href='https://curso-r.github.io/intro-ml-mestre/gabaritos/04-regressao-linear.R'>gabaritos/04-regressao-linear.R</a>       |
-| <a href='https://curso-r.github.io/intro-ml-mestre/gabaritos/05-regressao-logistica.R'>gabaritos/05-regressao-logistica.R</a> |
+| <a href='https://curso-r.github.io/main-intro-ml/exercicios/01-tidymodels.R'>exercicios/01-tidymodels.R</a>                   |
+| <a href='https://curso-r.github.io/main-intro-ml/exercicios/02-overfitting.R'>exercicios/02-overfitting.R</a>                 |
+| <a href='https://curso-r.github.io/main-intro-ml/exercicios/03-cross-validation.R'>exercicios/03-cross-validation.R</a>       |
+| <a href='https://curso-r.github.io/main-intro-ml/exercicios/04-regressao-linear.R'>exercicios/04-regressao-linear.R</a>       |
+| <a href='https://curso-r.github.io/main-intro-ml/exercicios/05-regressao-logistica.R'>exercicios/05-regressao-logistica.R</a> |
+| <a href='https://curso-r.github.io/main-intro-ml/exercicios/06-random-forest.R'>exercicios/06-random-forest.R</a>             |
+
+| Gabaritos                                                                                                                   |
+| :-------------------------------------------------------------------------------------------------------------------------- |
+| <a href='https://curso-r.github.io/main-intro-ml/gabaritos/01-tidymodels.R'>gabaritos/01-tidymodels.R</a>                   |
+| <a href='https://curso-r.github.io/main-intro-ml/gabaritos/02-overfitting.R'>gabaritos/02-overfitting.R</a>                 |
+| <a href='https://curso-r.github.io/main-intro-ml/gabaritos/03-cross-validation.R'>gabaritos/03-cross-validation.R</a>       |
+| <a href='https://curso-r.github.io/main-intro-ml/gabaritos/04-regressao-linear.R'>gabaritos/04-regressao-linear.R</a>       |
+| <a href='https://curso-r.github.io/main-intro-ml/gabaritos/05-regressao-logistica.R'>gabaritos/05-regressao-logistica.R</a> |
 
 ## Referências externas
 

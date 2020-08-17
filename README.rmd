@@ -52,8 +52,8 @@ CursoR::atualizar_material()
 ```{r, echo = FALSE}
 knitr::kable(escape = FALSE,
   tibble::tibble(
-    slide = CursoR:::list_github_files("intro-ml-mestre", "slides/", "\\.html"),
-    link = paste0("https://curso-r.github.io/intro-ml-mestre/", slide)
+    slide = CursoR:::list_github_files("main-intro-ml", "slides/", "\\.html"),
+    link = paste0("https://curso-r.github.io/main-intro-ml/", slide)
   ) %>%
     mutate(
       Slides = glue::glue("<a href='{link}'>{slide}</a>")
@@ -65,8 +65,8 @@ knitr::kable(escape = FALSE,
 ```{r, echo = FALSE}
 knitr::kable(
   tibble::tibble(
-    exemplo =  CursoR:::list_github_files("intro-ml-mestre", "exemplos/", "\\.(R$)|(Rmd$)"),
-    link = paste0("https://curso-r.github.io/intro-ml-mestre/", exemplo)
+    exemplo =  CursoR:::list_github_files("main-intro-ml", "exemplos/", "\\.(R$)|(Rmd$)"),
+    link = paste0("https://curso-r.github.io/main-intro-ml/", exemplo)
   ) %>%
     mutate(
       Exemplos = glue::glue("<a href='{link}'>{exemplo}</a>")
@@ -91,8 +91,8 @@ knitr::kable(
 ```{r, echo = FALSE}
 knitr::kable(
   tibble::tibble(
-    exercicio = CursoR:::list_github_files("intro-ml-mestre", "exercicios/", "\\.R"),
-    link = paste0("https://curso-r.github.io/intro-ml-mestre/", exercicio)
+    exercicio = CursoR:::list_github_files("main-intro-ml", "exercicios/", "\\.R"),
+    link = paste0("https://curso-r.github.io/main-intro-ml/", exercicio)
   ) %>%
     mutate(
       `Exercícios` = glue::glue("<a href='{link}'>{exercicio}</a>")
@@ -104,8 +104,8 @@ knitr::kable(
 ```{r, echo = FALSE}
 knitr::kable(
   tibble::tibble(
-    gabarito = CursoR:::list_github_files("intro-ml-mestre", "gabaritos/", "\\.R"),
-    link = paste0("https://curso-r.github.io/intro-ml-mestre/", gabarito)
+    gabarito = CursoR:::list_github_files("main-intro-ml", "gabaritos/", "\\.R"),
+    link = paste0("https://curso-r.github.io/main-intro-ml/", gabarito)
   ) %>%
     mutate(
       `Gabaritos` = glue::glue("<a href='{link}'>{gabarito}</a>")
