@@ -18,6 +18,15 @@ diamonds_com_problemas_a_mais <- diamonds %>%
     across(where(is.ordered), as.character)
   )
 
+bd %>%
+  mutate(
+    var_nova = case_when(
+      cut %in% c("A", "B", "C") ~ "ABC",
+      cut %in% c("D", "E") ~ cut,
+      TRUE ~ "OUTRO"
+    )
+  )
+
 # funcao recipe() ---------------------------------------------------------
 rec <- recipe(price ~ ., data = diamonds_com_problemas_a_mais)
 

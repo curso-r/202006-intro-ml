@@ -65,6 +65,8 @@ CursoR::atualizar_material()
 | <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/14-adult-exemplo-submissao.R'>exemplos/14-adult-exemplo-submissao.R</a>                     |
 | <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/15-steps.R'>exemplos/15-steps.R</a>                                                         |
 | <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/15-steps.Rmd'>exemplos/15-steps.Rmd</a>                                                     |
+| <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/99-trabalho-erico-rocha.R'>exemplos/99-trabalho-erico-rocha.R</a>                           |
+| <a href='https://curso-r.github.io/intro-ml-mestre/exemplos/99-trabalho-ricardo-mattos.Rmd'>exemplos/99-trabalho-ricardo-mattos.Rmd</a>                 |
 
 | Scripts feitos em aula                                                                                                                               |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------- |
